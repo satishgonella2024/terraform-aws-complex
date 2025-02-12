@@ -13,6 +13,15 @@ crash.*.log
 *.tfvars
 *.tfvars.json
 
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore backend override files
+backend.hcl
+
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
@@ -23,9 +32,3 @@ terraform.rc
 # Ignore IDE files
 .idea/
 .vscode/
-
-# Ignore override files
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
